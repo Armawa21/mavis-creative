@@ -476,6 +476,7 @@ section{ padding: clamp(4rem, 8vw, 7rem) 0; }
    ============================================================ */
 .cta-banner{
   text-align:center;
+  padding-bottom: clamp(2.5rem, 5vw, 3.5rem);
 }
 .cta-banner h2{ max-width: 20ch; margin-left:auto; margin-right:auto; }
 .cta-banner .btn{ margin-top: 1.6rem; }
@@ -526,10 +527,10 @@ section{ padding: clamp(4rem, 8vw, 7rem) 0; }
 .site-footer{
   background: var(--ink);
   color: rgba(250,248,244,0.75);
-  padding: 4.5rem 0 2.6rem;
+  padding: 2.8rem 0 2.6rem;
   text-align: center;
 }
-.footer-brand{ display:inline-block; margin-bottom: 2.2rem; }
+.footer-brand{ display:inline-block; margin-bottom: 1.6rem; }
 .footer-brand img{ height: 60px; width:auto; }
 .footer-links{
   display:flex; justify-content:center; gap: 2.2rem; flex-wrap: wrap;
