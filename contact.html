@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — MAVIS Creative</title>
+<meta name="description" content="Get in touch with MAVIS for photography, videography, design, digital marketing or OTA listing work in Bali.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-inner">
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand" aria-label="MAVIS Creative — home">
+      <img class="brand-logo brand-logo-color" src="assets/logo/mavis-creative-color.png" alt="MAVIS Creative">
+      <img class="brand-logo brand-logo-white" src="assets/logo/mavis-creative-white.png" alt="MAVIS Creative">
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <a href="https://wa.me/6287773388829" class="nav-cta" target="_blank" rel="noopener">Start a project</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section style="padding-top: clamp(7rem, 12vw, 10rem);">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Contact</span>
+        <h1>Let's talk about your project.</h1>
+        <p>Tell us a little about what you need — a shoot, a campaign, a full brand refresh — and we'll get back to you with next steps.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div>
+          <h3>Reach us directly</h3>
+          <ul class="contact-list">
+            <li>
+              <span class="label">WhatsApp</span>
+              <a href="https://wa.me/6287773388829" target="_blank" rel="noopener">+62 877 7338 8829</a>
+            </li>
+            <li>
+              <span class="label">Email</span>
+              <a href="mailto:ma.visuals21@gmail.com">ma.visuals21@gmail.com</a>
+            </li>
+            <li>
+              <span class="label">Based in</span>
+              <span>Bali, Indonesia</span>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Send a message</h3>
+          <form id="contact-form">
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="field">
+              <label for="project">Project type</label>
+              <select id="project" name="project">
+                <option>Photography</option>
+                <option>Videography</option>
+                <option>Graphic design / branding</option>
+                <option>Digital marketing (Meta &amp; Google Ads)</option>
+                <option>OTA listing</option>
+                <option>Something else</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required placeholder="A little about your project, timeline and budget if you have one."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send message</button>
+            <p class="form-note">This opens your email app with the message pre-filled, addressed to ma.visuals21@gmail.com.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <a href="index.html" class="footer-brand">
+      <img src="assets/logo/mavis-creative-white.png" alt="MAVIS Creative">
+    </a>
+    <nav class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="footer-social">
+      <a href="https://wa.me/6287773388829" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 01-12.4 7.5L4 20l1.1-4.4A8.5 8.5 0 1121 11.5z"/><path d="M8.5 10.5c.3 2 2 3.7 4 4"/></svg></a>
+      <a href="mailto:ma.visuals21@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5L12 13l8.5-6.5"/></svg></a>
+    </div>
+    <div class="footer-line"></div>
+    <div class="footer-copy">
+      <p>&copy; <span id="year"></span> MAVIS Creative. All Rights Reserved. Bali, Indonesia.</p>
+      <p><a href="mailto:ma.visuals21@gmail.com">ma.visuals21@gmail.com</a> &middot; <a href="https://wa.me/6287773388829">+62 877 7338 8829</a></p>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="js/main.js"></script>
+</body>
+</html>
