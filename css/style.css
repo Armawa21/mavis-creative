@@ -545,6 +545,7 @@ section{ padding: clamp(4rem, 8vw, 7rem) 0; }
 .footer-social a{ color: rgba(250,248,244,0.8); transition: color .2s ease; }
 .footer-social a:hover{ color: var(--brass); }
 .footer-social svg{ width: 20px; height: 20px; display:block; }
+.footer-social .wa-icon{ width: 22px; height: 22px; }
 .footer-line{
   max-width: 720px;
   margin: 0 auto 1.8rem;
