@@ -550,5 +550,5 @@ section{ padding: clamp(4rem, 8vw, 7rem) 0; }
   margin: 0 auto 1.8rem;
   border-top: 1px solid rgba(250,248,244,0.14);
 }
-.footer-copy p{ margin: 0 0 0.4rem; font-size: 0.85rem; color: rgba(250,248,244,0.6); }
+.footer-copy p{ margin: 0 0 0.4rem; font-size: 0.85rem; color: rgba(250,248,244,0.6); max-width: none; }
 .footer-copy a:hover{ color: var(--brass); }
